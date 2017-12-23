@@ -1,0 +1,24 @@
+<html>
+  <script src="src/counter.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script>
+  function execute(){
+    let input_text = document.getElementById('input_text').value;
+    let arr = input_text.split(/\r\n|\r|\n/);
+    document.getElementById('output_text').value = count1(arr);
+
+  };
+  </script>
+
+  <body>duplicate line counter
+    <div id="input_area">
+      <textarea id="input_text" class="input_area"></textarea>
+    </div>
+    <div id="ui_area">
+      <input type="button" name="generate" value="generate" onClick="execute()">
+    </div>
+    <div id="output_area">
+      <textarea id="output_text" class="input_area"></textarea>
+    </div>
+  </body>
+</html>

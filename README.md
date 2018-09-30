@@ -1,3 +1,5 @@
+https://yuyabu.github.io/duplicate-rows-counter/
+
 # duplicate rows counter
 
 this simple script counts duplicate line.
